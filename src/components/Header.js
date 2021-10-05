@@ -1,5 +1,4 @@
 import PropTypes from 'prop-types';
-import AddTask from './AddTask';
 import Button from './Button';
 
 const Header = ({ title, onAdd, showAdd }) => {

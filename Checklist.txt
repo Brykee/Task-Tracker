@@ -2,15 +2,16 @@ Able to use the CLI to start a new React application.
 === npx create-react-app <react-ing> ===
 
 Use snippets and template code for new components and common React structures.
-=== React extension. imp import. rfce react function export ===
+=== imp (import). rfce react function export ===
 
 Able to route traffic from browser url to components.
-=== what ===
+=== what??? ===
 
 Differentiate between the DOM and React’s Virtual DOM.
-
+=== Most JavaScript frameworks update the DOM much more than they have to. Manipulating the virtual DOM is much faster, because nothing gets drawn onscreen. ===
 
 Able to build reusable components (with and without JSX).
+=== ===
 Able to render data using components.
 Able to pass components to other components in props.
 Able to pass data into components using props.
