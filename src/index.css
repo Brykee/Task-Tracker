@@ -19,6 +19,28 @@ body {
   padding: 30px;
   border-radius: 5px;
 }
+.about {
+  margin-top: 2px;
+  text-align: center;
+  margin: 20px;
+}
+a {
+  margin: 8px;
+}
+h2 {
+  margin: 15px;
+}
+
+.about p {
+  text-align: center;
+  justify-content: center;
+  margin: 30px;
+}
+
+.changeBtn {
+  text-align: center;
+  justify-content: center;
+}
 
 .header {
   display: flex;

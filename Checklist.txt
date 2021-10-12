@@ -5,31 +5,56 @@ Use snippets and template code for new components and common React structures.
 === imp (import). rfce react function export ===
 
 Able to route traffic from browser url to components.
-=== what??? ===
+=== /About ===
 
 Differentiate between the DOM and React’s Virtual DOM.
 === Most JavaScript frameworks update the DOM much more than they have to. Manipulating the virtual DOM is much faster, because nothing gets drawn onscreen. ===
 
 Able to build reusable components (with and without JSX).
-=== ===
+=== React.createElement in ./About ===
+
 Able to render data using components.
+=== Footer ===
+
 Able to pass components to other components in props.
+=== Task, Tasks ===
+
 Able to pass data into components using props.
+=== i can do it it just looks messy in here===
+
 Able to control component state.
+=== 
+1. privately maintained within a component
+2. state can influence what is redered in the browser
+3. state can be changed within the component
+===
+
 Able to respond to events in elements like click, touch, change.
+=== ===
+
 Able to handle events triggered by components.
+=== ===
+
 Understand and discuss component lifecycle and ways to interact with the component at those different lifecycle stages.
+=== ===
+
 Able to create functional components and knows when they are ideal to use.
+=== ===
+
 Able to build containers or views that utilize many smaller components.
+=== ===
 
 Able to debug a React app.
 === React Dev Tools ===
 
 Able to use 3rd party packages and components.
+=== ===
 
 Able to use inline styles and css to style components.
 === <h1 style={{ color: 'red', backgroundColor: 'black' }}>{title}</h1> ===
 
 Able to make “ajax” requests (or http requests) to outside API’s to get and give data.
+=== ===
 
 Able to use data received from outside API’s to populate data in a component (and subsequently on the screen)
+=== ===

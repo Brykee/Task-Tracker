@@ -7,14 +7,20 @@ const Header = ({ title, onAdd, showAdd }) => {
   };
 
   return (
-    <header className="header">
-      <h1>{title}</h1>
-      <Button
-        color={showAdd ? 'red' : 'green'}
-        text={showAdd ? 'Close' : 'Add'}
-        onClick={onAdd}
-      />
-    </header>
+    <div className="nav">
+      <a href="./">Tracker</a>
+
+      <a href="/About">About</a>
+      <br />
+      <header className="header">
+        <h1>{title}</h1>
+        <Button
+          color={showAdd ? 'red' : 'green'}
+          text={showAdd ? 'Close' : 'Add'}
+          onClick={onAdd}
+        />
+      </header>
+    </div>
   );
 };
 
