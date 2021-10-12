@@ -30,16 +30,24 @@ Able to control component state.
 ===
 
 Able to respond to events in elements like click, touch, change.
-=== ===
+=== onClick ===
 
 Able to handle events triggered by components.
-=== ===
+=== React components are wrappers for DOM elements. We have a layer that we need to pass through to listen for the event. Window component is actively listening to the browser window and will display its width when it updates. ===
 
 Understand and discuss component lifecycle and ways to interact with the component at those different lifecycle stages.
-=== ===
+=== 
+componentWillMount -before initial render
+componentDidMount -after initial render
+componentWillRecieveProps -when comp recieves new props
+shouldComponentUpdate -before render,after recieve new props or state
+componentWillUpdate -before render,after recieve new props or state
+componentDidUpdate - after component updates to DOM
+componentWillUnmount - right before removing componant from DOM
+===
 
 Able to create functional components and knows when they are ideal to use.
-=== ===
+=== Functional components will always render and behave the same, given the same props. Also, they don't care about lifecycle methods or have their own internal state. (./About)===
 
 Able to build containers or views that utilize many smaller components.
 === ===
