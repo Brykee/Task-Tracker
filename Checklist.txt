@@ -56,7 +56,7 @@ Able to debug a React app.
 === React Dev Tools ===
 
 Able to use 3rd party packages and components.
-=== ===
+=== Bootstrap / WindowWatcher ===
 
 Able to use inline styles and css to style components.
 === <h1 style={{ color: 'red', backgroundColor: 'black' }}>{title}</h1> ===
