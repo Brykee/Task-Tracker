@@ -50,7 +50,7 @@ Able to create functional components and knows when they are ideal to use.
 === Functional components will always render and behave the same, given the same props. Also, they don't care about lifecycle methods or have their own internal state. (./About)===
 
 Able to build containers or views that utilize many smaller components.
-=== ===
+=== ??? ===
 
 Able to debug a React app.
 === React Dev Tools ===
