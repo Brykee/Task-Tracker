@@ -9,7 +9,6 @@ const Header = ({ title, onAdd, showAdd }) => {
   return (
     <div className="nav">
       <a href="./">Tracker</a>
-
       <a href="/About">About</a>
       <br />
       <header className="header">

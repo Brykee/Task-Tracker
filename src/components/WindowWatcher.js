@@ -13,10 +13,6 @@ class WindowWatcher extends React.Component {
     window.addEventListener('resize', this.handleResize);
   }
 
-  componentDidUnmount() {
-    window.removeEventListener('resize', this.handleResize);
-  }
-
   render() {
     return (
       <React.Fragment>

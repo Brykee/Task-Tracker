@@ -20,17 +20,21 @@ Able to pass components to other components in props.
 === Task, Tasks ===
 
 Able to pass data into components using props.
-=== i can do it it just looks messy in here===
+=== ApiItem maybe ===
 
 Able to control component state.
 === 
 1. privately maintained within a component
 2. state can influence what is redered in the browser
 3. state can be changed within the component
+
+Controlled component is component that get the changed value from the callback function and uncontrolled component is component that have the one from the DOM.
+
+ex. /Message.js
 ===
 
 Able to respond to events in elements like click, touch, change.
-=== onClick ===
+=== onClick / Message.js ===
 
 Able to handle events triggered by components.
 === React components are wrappers for DOM elements. We have a layer that we need to pass through to listen for the event. Window component is actively listening to the browser window and will display its width when it updates. ===
@@ -49,20 +53,20 @@ componentWillUnmount - right before removing componant from DOM
 Able to create functional components and knows when they are ideal to use.
 === Functional components will always render and behave the same, given the same props. Also, they don't care about lifecycle methods or have their own internal state. (./About)===
 
-Able to build containers or views that utilize many smaller components.
-=== ??? ===
+Able to build containers or views that utilize many smaller components. !!! What the@#$ is a container
+=== Tasks, Task ===
 
-Able to debug a React app.
+Able to debug a React app.!!!
 === React Dev Tools ===
 
 Able to use 3rd party packages and components.
-=== Bootstrap / WindowWatcher ===
+=== Bootstrap btn / WindowWatcher ===
 
 Able to use inline styles and css to style components.
 === <h1 style={{ color: 'red', backgroundColor: 'black' }}>{title}</h1> ===
 
 Able to make “ajax” requests (or http requests) to outside API’s to get and give data.
-=== ===
+=== tic tac react ===
 
 Able to use data received from outside API’s to populate data in a component (and subsequently on the screen)
-=== ===
+=== tic tac react === !!!

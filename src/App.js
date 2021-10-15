@@ -6,6 +6,7 @@ import About from './components/About';
 import Footer from './components/Footer';
 import Message from './components/Message';
 import WindowWatcher from './components/WindowWatcher';
+import ApiItems from './components/ApiItems';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 const App = () => {
@@ -77,6 +78,7 @@ const App = () => {
             <Message />
             <Footer />
             <WindowWatcher />
+            <ApiItems />
           </Route>
         </Switch>
       </div>
